@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * 회원 로그인, 로그아웃 처리 콘트롤러
  */
-@Controller
+@Controller // 컨트롤러는 컨트롤러다.
 public class CustomerLoginController {
 
 	@Autowired
